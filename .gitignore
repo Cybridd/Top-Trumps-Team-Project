@@ -1,0 +1,14 @@
+# Ignore "target" directory, as build files differ between computers and platforms
+target/
+
+ # Compiled class file
+*.class
+
+# Log file
+*.log
+
+# ignore this directory as it is specific to eclipse 
+RemoteSystemsTempFiles/
+
+# Ignore any logfiles that are created by other people... that's not that interesting
+logfile.txt
